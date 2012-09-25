@@ -1,5 +1,8 @@
 Webapp::Application.routes.draw do
-  resources :entries
+
+  resources :messages
+
+  devise_for :users
 
   get "home/index"
 

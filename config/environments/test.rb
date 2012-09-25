@@ -34,4 +34,9 @@ Webapp::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  #Set the number of stretches to 1 to increase performance
+  #Reference: https://github.com/plataformatec/devise/wiki/Speed-up-your-unit-tests
+  config.stretches = Rails.env.test? ? 1 : 10
+
 end

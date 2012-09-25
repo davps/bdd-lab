@@ -12,4 +12,17 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
+//= require underscore
+//= require backbone
+//= require backbone.sync.rails
+
+//= require app/namespace
+//= require app/models/User
+//= require app/models/UserPasswordRecovery
+//= require app/models/UserRegistration
+//= require app/models/UserSession
+
+//= require main
 //= require_tree .
+
