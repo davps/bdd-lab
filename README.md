@@ -9,6 +9,7 @@ This is an experimental web app where I am playing whith the following technolog
  + Just a RESTful/JSON API
 
 
+
 * At the browser side (client)
  + backbone.js
  + underscore.js
