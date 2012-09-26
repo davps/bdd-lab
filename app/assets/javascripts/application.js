@@ -10,14 +10,18 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
+
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require underscore
 //= require backbone
+//= require backbone.validation
 //= require backbone.sync.rails
 
 //= require app/namespace
+//= require app/templates/hello
+//= require app/templates/login
 //= require app/models/User
 //= require app/models/UserPasswordRecovery
 //= require app/models/UserRegistration
